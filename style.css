@@ -37,6 +37,7 @@ h2{
     font-weight: 700;
     line-height: 71px;
     word-wrap: break-word;
+    margin-top: 30px;
 }
 .container{
     display: flex;
@@ -55,6 +56,7 @@ small{
     font-weight: 700;
     letter-spacing: 2.96px;
     word-wrap: break-word;
+    margin-top: 20px;
 }
 
 svg path:hover{
@@ -76,7 +78,18 @@ svg path:hover{
     width: 100vw;
 }
 
+.mini-container{
+    background-color: #343650;
+    width: 80px;
+    height: 80px;
+    border-radius: 6px;
+}
 
+.mini-container:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+}
 
 
 footer{
